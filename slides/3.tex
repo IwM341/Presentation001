@@ -1,0 +1,24 @@
+\begin{itemize}
+	\item Неупругая тёмная материя позволяет ослабить ограничения благодаря кинематике.
+	\item Состоит из 2 компонент: $\chi$ с массой $m_{\chi}$ и $\chi^*$ с массой $m_{\chi}+ \delta$
+	\item Столкновения с ядрами происходят преимущественно неупругим образом.
+	
+	\begin{center}
+		\begin{tikzpicture}[line width=1pt, scale=1.2,fermion/.style={postaction={decorate},decoration={markings, mark=at position 0.5 with {\arrow{>}}}}]
+			% Define vertices
+			\node at (0, 1) (chi_in) {\(\chi, k\)};
+			\node at (0, -1) (N_in) {\(N, p\)};
+			\node at (3, 1) (chi_out) {\(\chi^*, k'\)};
+			\node at (3, -1) (N_out) {\(N, p'\)};
+			\node[circle, fill=black, inner sep=1.5pt,outer sep=0pt] at (1.5, 0) (vertex) {};
+			
+			\node[left] at (-1, 0) {\(N + \chi(m)\)};
+			\node[right] at (4, 0) {\(N + \chi^*(m + \delta)\)};
+			% Draw arrows for incoming and outgoing particles
+			\draw[fermion] (chi_in) -- (vertex)  node[midway, above ] {};
+			\draw[fermion] (N_in) -- (vertex) node[midway, below ] {};
+			\draw[fermion] (vertex) -- (chi_out) node[midway, above ] {};
+			\draw[fermion] (vertex) -- (N_out) node[midway, below ] {};
+		\end{tikzpicture}
+	\end{center}
+\end{itemize}

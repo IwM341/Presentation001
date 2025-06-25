@@ -1,0 +1,36 @@
+\documentclass[
+11pt,]{beamer}
+\usepackage{booktabs}
+%\graphicspath{{Images/}{./}}
+\usetheme{Antibes}
+\usefonttheme{default}
+\usepackage{palatino} 
+\usepackage[default]{opensans}
+\useinnertheme{circles}
+\usepackage[english,russian]{babel}
+
+\setbeamertemplate{caption}{\raggedright\insertcaption\par}
+
+\usepackage{graphicx} % подключение графики
+\usepackage{pdfpages} % вставка pdf-страниц
+\usepackage{amsmath} % дополнительные математические возможности
+\usepackage{amssymb} % дополнительные математические символы
+\usepackage{physics}
+\usepackage{tikz}
+\usetikzlibrary{decorations.markings}
+\usepackage{subcaption}
+\usepackage{pgfplots}
+\usepgfplotslibrary{
+	groupplots,
+}
+
+\usepackage{adjustbox}
+
+
+
+\newcommand{\average}[1]{\langle #1 \rangle}
+\newcommand{\tderiv}[1]{\cfrac{d #1}{d t}}
+\newcommand{\deriv}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand{\cderiv}[2]{\cfrac{\partial #1}{\partial #2}}
+
+\newcommand{\avarage}[1]{\left\langle #1 \right\rangle}
