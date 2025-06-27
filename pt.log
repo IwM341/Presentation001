@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.1.24)  25 JUN 2025 15:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.1.24)  27 JUN 2025 13:46
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1569,68 +1569,94 @@ Overfull \hbox (18.00885pt too wide) in paragraph at lines 22--23
 ] (slides/10.tex) [11
 
 ] (slides/11.tex
-<images/Capt100_100.png, id=387, 944.93025pt x 466.1415pt>
+<images/Capt100_100.png, id=387, 1031.65425pt x 504.08325pt>
 File: images/Capt100_100.png Graphic file (type png)
 <use images/Capt100_100.png>
 Package pdftex.def Info: images/Capt100_100.png  used on input line 6.
-(pdftex.def)             Requested size: 215.10196pt x 106.1078pt.
+(pdftex.def)             Requested size: 215.10196pt x 105.09912pt.
 LaTeX Font Info:    Font shape `T2A/opensans-TLF/m/n' will be
 (Font)              scaled to size 7.0pt on input line 7.
 LaTeX Font Info:    Font shape `T2A/opensans-TLF/m/n' will be
 (Font)              scaled to size 5.0pt on input line 7.
 ) [12
 
- <./images/Capt100_100.png>] (slides/12.tex
-<images/Rdistribs.png, id=417, 667.89525pt x 215.00325pt>
+ <./images/Capt100_100.png>] (slides/11_1.tex
+<images/ConvEl.png, id=417, 658.8615pt x 253.54726pt>
+File: images/ConvEl.png Graphic file (type png)
+<use images/ConvEl.png>
+Package pdftex.def Info: images/ConvEl.png  used on input line 4.
+(pdftex.def)             Requested size: 307.28987pt x 118.25417pt.
+) [13
+
+ <./images/ConvEl.png>]
+(slides/11_2.tex
+<images/ConvInel.png, id=447, 658.8615pt x 272.81924pt>
+File: images/ConvInel.png Graphic file (type png)
+<use images/ConvInel.png>
+Package pdftex.def Info: images/ConvInel.png  used on input line 4.
+(pdftex.def)             Requested size: 307.28987pt x 127.24261pt.
+) [14
+
+ <./images/ConvInel.png>] (slides/12.tex
+<images/Rdistribs.png, id=476, 667.89525pt x 215.00325pt>
 File: images/Rdistribs.png Graphic file (type png)
 <use images/Rdistribs.png>
 Package pdftex.def Info: images/Rdistribs.png  used on input line 4.
 (pdftex.def)             Requested size: 307.28987pt x 98.92236pt.
-) [13
+) [15
 
- <./images/Rdistribs.png>]
-(slides/13.tex
-<images/LinearNonLinear.png, id=448, 668.4975pt x 221.628pt>
+ <./images/Rdistribs.png>] (slides/13.tex
+<images/LinearNonLinear.png, id=506, 668.4975pt x 221.628pt>
 File: images/LinearNonLinear.png Graphic file (type png)
 <use images/LinearNonLinear.png>
 Package pdftex.def Info: images/LinearNonLinear.png  used on input line 5.
 (pdftex.def)             Requested size: 307.28987pt x 101.87909pt.
-) [14
+) [16
 
- <./images/LinearNonLinear.png>] (slides/14.tex
-<images/Equilibrium.png, id=477, 483.60675pt x 329.43076pt>
+ <./images/LinearNonLinear.png>]
+(slides/14.tex
+<images/Equilibrium.png, id=535, 483.60675pt x 329.43076pt>
 File: images/Equilibrium.png Graphic file (type png)
 <use images/Equilibrium.png>
 Package pdftex.def Info: images/Equilibrium.png  used on input line 5.
 (pdftex.def)             Requested size: 199.73653pt x 136.06276pt.
 )
-Overfull \vbox (6.47464pt too high) detected at line 77
+Overfull \vbox (6.47464pt too high) detected at line 88
  []
 
-[15
+[17
 
  <./images/Equilibrium.png>] (slides/15.tex
-<images/Aout.png, id=506, 269.808pt x 201.1515pt>
+<images/Aout.png, id=564, 269.808pt x 201.1515pt>
 File: images/Aout.png Graphic file (type png)
 <use images/Aout.png>
 Package pdftex.def Info: images/Aout.png  used on input line 4.
 (pdftex.def)             Requested size: 199.73653pt x 148.91423pt.
 )
-Overfull \vbox (20.31128pt too high) detected at line 82
+Overfull \vbox (20.31128pt too high) detected at line 93
  []
 
-[16
+[18
 
  <./images/Aout.png>] (slides/16.tex
-<images/AnnCoeff.png, id=535, 284.262pt x 222.23026pt>
+<images/AnnCoeff.png, id=593, 284.262pt x 222.23026pt>
 File: images/AnnCoeff.png Graphic file (type png)
 <use images/AnnCoeff.png>
 Package pdftex.def Info: images/AnnCoeff.png  used on input line 3.
 (pdftex.def)             Requested size: 215.10196pt x 168.16768pt.
-) [17
+) [19
 
  <./images/AnnCoeff.png>]
-(slides/Conclusion2.tex) [18
+(slides/17.tex
+<images/Constrains.png, id=623, 435.12563pt x 316.93407pt>
+File: images/Constrains.png Graphic file (type png)
+<use images/Constrains.png>
+Package pdftex.def Info: images/Constrains.png  used on input line 3.
+(pdftex.def)             Requested size: 215.10196pt x 156.6773pt.
+) [20
+
+ <./images/Constrains.png>] (slides/Conclusion2.tex)
+[21
 
 ]
 \tf@nav=\write6
@@ -1647,10 +1673,10 @@ Package rerunfilecheck Info: File `pt.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 41691 strings out of 475385
- 957535 string characters out of 2790968
+ 41739 strings out of 475385
+ 958470 string characters out of 2790968
  1390691 words of memory out of 3000000
- 62148 multiletter control sequences out of 15000+600000
+ 62178 multiletter control sequences out of 15000+600000
  498399 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  133i,18n,134p,741b,1120s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1663,9 +1689,9 @@ b><D:/Soft/MikTex/fonts/type1/public/amsfonts/cm/cmss10.pfb><D:/Soft/MikTex/fon
 ts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Soft/MikTex/fonts/type1/public/amsfo
 nts/cm/cmsy8.pfb><D:/Soft/MikTex/fonts/type1/urw/helvetic/uhvr8a.pfb><D:/Soft/M
 ikTex/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on pt.pdf (18 pages, 980977 bytes).
+Output written on pt.pdf (21 pages, 1133784 bytes).
 PDF statistics:
- 643 PDF objects out of 1000 (max. 8388607)
- 39 named destinations out of 1000 (max. 500000)
- 78 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 732 PDF objects out of 1000 (max. 8388607)
+ 45 named destinations out of 1000 (max. 500000)
+ 93 words of extra memory for PDF output out of 10000 (max. 10000000)
 
