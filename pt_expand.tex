@@ -1,14 +1,14 @@
 \documentclass[
 11pt,]{beamer}
-\usepackage{booktabs}
-%\graphicspath{{Images/}{./}}
-\usetheme{Antibes}
-\usefonttheme{default}
+\usepackage{cmap}
 
-\useinnertheme{circles}
+
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+%\graphicspath{{Images/}{./}}
 \usepackage[english,russian]{babel}
 
-\setbeamertemplate{caption}{\raggedright\insertcaption\par}
+\usepackage{booktabs}
 
 \usepackage{graphicx} % подключение графики
 \usepackage{pdfpages} % вставка pdf-страниц
@@ -18,7 +18,10 @@
 \usepackage{tikz}
 \usetikzlibrary{decorations.markings}
 \usepackage{subcaption}
+
 \usepackage{pgfplots}
+
+
 \usepgfplotslibrary{
 	groupplots,
 }
@@ -26,6 +29,18 @@
 \usepackage{adjustbox}
 
 \usepackage{caption}
+
+
+
+
+\usetheme{Antibes}
+\usefonttheme{default}
+
+\useinnertheme{circles}
+
+
+\setbeamertemplate{caption}{\raggedright\insertcaption\par}
+
 \captionsetup[figure]{labelformat=empty}
 
 \newcommand{\average}[1]{\langle #1 \rangle}
@@ -69,7 +84,7 @@
 \begin{figure}
 	\includegraphics[width=0.53\textwidth]{images/pdg_si_limits.pdf}
 	\includegraphics[width=0.45\textwidth]{images/DirectSD.png}
-	\caption{Ограничения на спин-независимое сечение ТМ на нуклоне $\sigma^{SI}_{\chi p}$ и спин-зависимое $\sigma^{SD}_{\chi p}$}
+	\caption{Ограничения на спин-независимое сечение ТМ на нуклоне $\sigma^{SI}_{\chi p}$ \footnote{PDG, DarkMatter} и спин-зависимое $\sigma^{SD}_{\chi p}$ \footnote{arXiv:2410.23454}}
 \end{figure}
 
 	\end{frame}
@@ -130,8 +145,8 @@
 		\mathcal{L} \supset g\bar{\chi}\gamma^{\mu}\chi \bar{q}\gamma_{\mu}q = i\frac{g}{2}
 		\left[ \bar{\chi_2}\gamma^{\mu}\chi_1  -  \bar{\chi_1}\gamma^{\mu}\chi_2\right]\bar{q}\gamma^{\mu}q
 	\end{equation*}  
-	\item Данный механизм встречается в секторе хиггсино в SUSY расширениях и в некоторых моделях с тёмными фотонами.
-	\item Похожий механизм со скалярными комплексными полями встречается в секторе снейтрино.
+	\item Данный механизм может встречаться в секторе хиггсино в SUSY расширениях или в моделях с тёмным фотоном\footnote{arXiv:1410.4549,arXiv:1701.03168}.
+	\item Похожий механизм со скалярными комплексными полями встречается в секторе снейтрино \footnote{arXiv:hep-ph/0101138}.
 \end{itemize}
 	\end{frame}
 	
@@ -146,11 +161,28 @@
 	решение которого имеет вид:
 	\begin{equation*}
 		N = \sqrt{\cfrac{C}{C_A}} \th{[\sqrt{C_A t^2C}]} \quad
-		A(t) = \frac{1}{2} C \th^2{[\sqrt{C_A t^2C}]}
+		\Gamma(t) = \frac{1}{2} C \th^2{[\sqrt{C_A t^2C}]}
 		\label{eq:AnnNtherm}
 	\end{equation*}
+ 
+\end{itemize}
+	\end{frame}
 	
-	\item  В упругом случае как правило $C_AT_{\odot}^2C >> 1$ и $A = \frac{C}{2}$. 
+	\begin{frame}
+		\frametitle{Тёмная материя в Солнце}
+		\begin{itemize}
+	\item Зная зависимость темпа аннигилляции в конечный момент эволюции $T_{\odot}$ (время жизни Солнца) от скорости захвата :
+	 \begin{equation*}
+	 	\Gamma =  \cfrac{1}{2 C_A T_{\odot}^2} F(C_A T_{\odot}^2 C) \quad F(x) = x\th^2{\sqrt{x}}
+	 \end{equation*}
+	 можно сделать ограничения на $\sigma_{\chi p}$:
+	 \begin{equation*}
+	 	\sigma_{\chi p} < \sigma_{\chi p, 0} \cfrac{1}{C_A T_{\odot}^2 \cdot C(\sigma_{\chi p,0})} F^{-1}\left(	2\Gamma_{max} \cdot C_A T_{\odot}^2\right)
+	 \end{equation*}
+	\item  В упругом случае как правило $C_AT_{\odot}^2 C >> 1$ и $\Gamma = \frac{C}{2}$.
+	\begin{equation*}
+		\sigma_{\chi p} < \sigma_{\chi p, 0} \cfrac{2\Gamma_{max}}{C(\sigma_{\chi p,0})} 
+	\end{equation*}
 \end{itemize}
 	\end{frame}
 	
@@ -164,7 +196,7 @@
 		\left(\cfrac{m_{\chi}}{\text{GeV}}\right)^{3/2}
 	\end{equation*}
 	\item В неупругом сценарии $a$ зависит от сечения рассения $\sigma_{\chi p}$, модели и времени и величина $C_A$ находится с помощью численного расчета линейного уравнения Больцмана.
-	\item Учитывая изотропность задачи, уравнение эволюции на плотность ТМ $f(E,L)$ в пространстве $E$ --- $L$ сдедующее:
+	\item Учитывая изотропность задачи, уравнение эволюции на плотность ТМ $f(E,L)$ в пространстве $E$ --- $L$ следующее:
 	\begin{equation*}
 			\cderiv{f(E,L)}{t} = C(E,L)
 			+ \int{dE'dL' S(E,L,E',L') f(E',L')}
@@ -177,6 +209,7 @@
 
 	\end{frame}
 
+	
 	\begin{frame}
 	\frametitle{Моделирование эволюции темной материи}
 	\begin{itemize}
@@ -196,16 +229,16 @@
 	\begin{frame}
 		\frametitle{Нерелятивистское взаимодействие с веществом}
 		\begin{itemize}
-	\item Взаимодействие тёмной материи представляется в виде линейной комбинации нерелятивистких операторов, возникающие из релятивистких операторов. Например:
+	\item Взаимодействие тёмной материи представляется в виде линейной комбинации нерелятивистских операторов, возникающие из релятивистских операторов. Например:
 	\begin{eqnarray*}
 		\bar{\chi}\gamma^{\mu}\chi \bar{n}\gamma_{\mu}n \rightarrow& \hat{O}_1 &= 1 \\
 		\bar{\chi}\gamma^{\mu}\gamma^{5}\chi \bar{n}\gamma_{\mu}\gamma^{5}n \rightarrow& -4\hat{O}_4  &= -4 \vec{S}_{\chi}\cdot\vec{S}_{n}
 	\end{eqnarray*}
-	\item Для нахождения сечения рассеяния на ядре находят в оболочечной модели ядра матричные элементы 
-	потенциала взаимодействия.
+	\item Взаимодействия с ядром определяется как сумма потенциалов на отдельных нуклонах
 	\begin{equation*}
-		iV = \bra{\chi k',N p'} \sum_i{\hat{V}(r_{\chi} - r_{i})} \ket{\chi k,N p}
+		iM = \bra{\chi k',N p'} \sum_i{\hat{V}(r_{\chi} - r_{i})} \ket{\chi k,N p \vphantom{'}}
 	\end{equation*}
+	\item Для нахождения сечения рассеяния на ядре мы используем из arXiv:1501.03729.
 \end{itemize}
 	\end{frame}
 	
@@ -230,13 +263,13 @@
 		\sum_j{[s_{ij} N_{j} - s_{ji} N_{i} ]} - e_{i} N_i  \right)
 	\end{equation*}
 	$T_{\chi p}^{-1} = \sigma_{\chi p} \avarage{n_{nuc}} v_{esc}$.
-	\item Скорость захвата в $i$-ом интервале $c_i$, вероятности перехода/испарения $s_{ij}$/$e_{i}$ определяются интегралом столкновений по всем ядрам, учитывая модель Солнца (AGS09met).
+	\item Скорость захвата в $i$-ом интервале $c_i$, вероятности перехода/испарения $s_{ij}$/$e_{i}$ определяются интегралом столкновений по всем ядрам, учитывая модель Солнца (AGS09met)\footnote{arXiv:1611.09867}.
 \end{itemize}
 	\end{frame}
-	
-	\begin{frame}
-		\frametitle{Распределение тёмной материи}
-		\begin{itemize}
+	%
+	%\begin{frame}
+	%	\frametitle{Распределение тёмной материи}
+	%	\begin{itemize}
 	\item Мы решаем однородное уравнение на величину $C_i(t) = \deriv{N}{t}$, которое описывает эволюцию частиц, захватившихся за единицу времени в момент $t=0$.
 \end{itemize}
 
@@ -246,7 +279,7 @@
 	{images/Capt100_100.png}
 	\caption{Распределение захваченных частиц для $m_{\chi} = 100\, \text{GeV}$, $\delta = 100\, \text{keV}$.}
 \end{figure}
-	\end{frame}
+	%\end{frame}
 	
 	
 
@@ -259,7 +292,7 @@
 \begin{figure}[!h]
 	\centering
 	\includegraphics[width=0.8\textwidth]{images/Rdistribs.png}
-	\caption{Начальное и конечное радиальное распределение частиц тёмной материи в Солнце для $m_{\chi} = 100\text{GeV}$( предполагается $\sigma_{\chi p} = 10^{-42} \text{cm}^2$, а компонента $\chi*$ долгоживущая)}.
+	\caption{Начальное и конечное радиальное распределение частиц тёмной материи в Солнце для $m_{\chi} = 100 \, \text{GeV}$( предполагается $\sigma_{\chi p} = 10^{-42} \text{cm}^2$, а компонента $\chi^*$ долгоживущая)}.
 	\label{plot:Nrdistrib}
 \end{figure}
 
@@ -274,25 +307,25 @@
 \begin{figure}[!h]
 	\centering
 	\includegraphics[width=0.7\textwidth]{images/LinearNonLinear.png}
-	\caption{Зависимость от $\delta$ захвата и аннигиляции при линейной и нелинейной эволюции для $m_{\chi} = 100\text{GeV}$}
+	\caption{Зависимость от $\delta$ захвата и аннигиляции при линейной и нелинейной эволюции для $m_{\chi} = 100 \,\text{GeV}$}
 \end{figure}
 
 	\end{frame}
 	
 	
 	\begin{frame}
-		\frametitle{Коэффициент аннигилляции}
+		\frametitle{Коэффициент аннигиляции}
 		
 \begin{itemize}
-	\item Коэффициент аннигилляции $C_AT_{\odot}^2 = 2A(t = T_{\odot})/C^2$ находится из решения линейного уравнения.
+	\item Коэффициент аннигилляции $C_AT_{\odot}^2 = 2\Gamma(t = T_{\odot})/C^2$ находится из решения линейного уравнения.
 \end{itemize}
 \begin{figure}[!h]
 	\centering
 	\only<1>{\includegraphics[width=0.7\textwidth]{images/AnnCoeff.png}
-	\caption{Коэффициент аннигиляции ТМ $m_{\chi} = 100 \text{GeV}$ ($\chi^*$ --- долгоживущая )}
+	\caption{Коэффициент аннигиляции ТМ $m_{\chi} = 100 \, \text{GeV}$ ($\chi^*$ --- долгоживущая )}
 	}
 	\only<2>{\includegraphics[width=0.7\textwidth]{images/AnnCoeffFD.png}
-	\caption{Коэффициент аннигиляции $m_{\chi} = 100 \text{GeV}$ ($\chi^*$ --- короткоживущая )}
+	\caption{Коэффициент аннигиляции $m_{\chi} = 100 \, \text{GeV}$ ($\chi^*$ --- короткоживущая )}
 	}
 \end{figure}
 	\end{frame}
@@ -301,17 +334,17 @@
 	\begin{frame}
 		\frametitle{Условие равновесия}
 		\begin{itemize}
-	\item Также находятся параметры $m_{\chi}$ и $\delta$, при которых предположение о равновесии между аннигиляцией и захватом ($A = \frac{1}{2} C$) перестает быть верным.
+	\item Также находятся параметры $m_{\chi}$ и $\delta$, при которых предположение о равновесии между аннигиляцией и захватом ($\Gamma = \frac{1}{2} C$) перестает быть верным.
 \end{itemize}
 
 
 \begin{figure}[!h]
 	\centering
 	\only<1>{\includegraphics[width=0.6\textwidth]{images/Equilibrium.png}
-	\caption{Область параметров $m,\delta$ при которых наступает равновесие между $A$ и $C$ ($\chi^*$ --- долгоживущая )}
+	\caption{Область параметров $m,\delta$ при которых наступает равновесие между $\Gamma$ и $C$ ($\chi^*$ --- долгоживущая )}
 	}
 	\only<2>{\includegraphics[width=0.6\textwidth]{images/EqFD.png}
-	\caption{Область параметров $m,\delta$ при которых наступает равновесие между $A$ и $C$ ($\chi^*$ --- короткоживущая )}
+	\caption{Область параметров $m,\delta$ при которых наступает равновесие между $\Gamma$ и $C$ ($\chi^*$ --- короткоживущая )}
 	}
 	
 \end{figure}
@@ -319,7 +352,7 @@
 	\end{frame}
 	
 	\begin{frame}
-		\frametitle{Внешняя аннигилляция}
+		\frametitle{Внешняя аннигиляция}
 		\begin{itemize}
 	\item Часть тёмной материи может аннигилировать снаружи (из-за скопления на траекториях с большим $r$), однако сигнал очень слабый.
 \end{itemize}
@@ -334,22 +367,23 @@
 	\begin{frame}
 		\frametitle{Ограничения}
 		\begin{itemize}
-	\item ограничить сечение рассеяния можно зная: конечное распределение ($aT_{\odot}^2$), ограничение на темп аннигиляции  $A$ из нейтриного сигнала. 
+	\item Зная конечное распределение ($C_A T_{\odot}^2$) и ограничения на темп аннигиляции  $\Gamma$ из нейтринного сигнала, мы можем ограничить $\sigma_{\chi p}$. 
+	\begin{figure}[!h]
+		\centering
+		\includegraphics[width=0.55\textwidth]{images/Constrains.png}
+		\caption{Ограничения для $m_{\chi} = 100 \, \text{GeV}$ исходя из данных IceCube  на $\Gamma$ в канале $\chi+\chi \to W + W$ (arXiv:1612.05949)} 
+	\end{figure}
 \end{itemize}
-\begin{figure}[!h]
-	\centering
-	\includegraphics[width=0.65\textwidth]{images/Constrains.png}
-	\caption{Пример ограничений из данных IceCube в канале $\chi+\chi \to W^{+} + W^{-}$}
-\end{figure}
+
 	\end{frame}
 	
 	\begin{frame}
-		\frametitle{Заключение.}
+		\frametitle{Заключение}
 		\begin{itemize}
-	\item Неупругая тёмная материя может иметь нетермальное распределение внутри Солнца
-	\item Для того, чтобы делать корректные ограничения на сечения нужно находить распределение тёмной материи в Солнце
+	\item Неупругая тёмная материя может иметь нетермальное распределение внутри Солнца.
+	\item Для получения корректных ограничения на сечения нужно знать распределение тёмной материи в Солнце.
 	\item В дальнейшем нужно включить в уравнения малое упругое взаимодействие.
-	\item Также интерес представляет случай, когда есть саморассеяние $\chi + \chi \rightarrow \chi + \chi$?
+	\item Также представляет интерес случай с саморассеянием $\chi + \chi \rightarrow \chi + \chi$?
 	
 \end{itemize}
 	\end{frame}

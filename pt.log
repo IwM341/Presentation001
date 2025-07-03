@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.1.24)  3 JUL 2025 22:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.1.24)  3 JUL 2025 23:50
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1595,11 +1595,11 @@ Overfull \vbox (7.39154pt too high) detected at line 107
 [18
 
  <./images/EqFD.png>] (slides/15.tex
-<images/Aout.png, id=604, 572.1375pt x 378.81525pt>
+<images/Aout.png, id=604, 647.41875pt x 430.0065pt>
 File: images/Aout.png Graphic file (type png)
 <use images/Aout.png>
 Package pdftex.def Info: images/Aout.png  used on input line 7.
-(pdftex.def)             Requested size: 199.73653pt x 132.24628pt.
+(pdftex.def)             Requested size: 199.73653pt x 132.66418pt.
 ) [19
 
  <./images/Aout.png>]
@@ -1681,9 +1681,9 @@ ssi10.pfb><D:/Soft/MikTex/fonts/type1/public/amsfonts/cm/cmssi8.pfb><D:/Soft/Mi
 kTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Soft/MikTex/fonts/type1/publ
 ic/amsfonts/cm/cmsy7.pfb><D:/Soft/MikTex/fonts/type1/public/amsfonts/cm/cmsy8.p
 fb>
-Output written on pt.pdf (24 pages, 939673 bytes).
+Output written on pt.pdf (24 pages, 946954 bytes).
 PDF statistics:
- 1119 PDF objects out of 1200 (max. 8388607)
+ 1118 PDF objects out of 1200 (max. 8388607)
  51 named destinations out of 1000 (max. 500000)
  123 words of extra memory for PDF output out of 10000 (max. 10000000)
 
