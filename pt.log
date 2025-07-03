@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.1.24)  3 JUL 2025 16:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.1.24)  3 JUL 2025 22:03
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1530,17 +1530,8 @@ Overfull \hbox (16.8211pt too wide) in paragraph at lines 22--23
 
 ] (slides/10_1.tex) [12
 
-] (slides/11.tex
-<images/Capt100_100.png, id=427, 1031.65425pt x 504.08325pt>
-File: images/Capt100_100.png Graphic file (type png)
-<use images/Capt100_100.png>
-Package pdftex.def Info: images/Capt100_100.png  used on input line 8.
-(pdftex.def)             Requested size: 215.10196pt x 105.09912pt.
-)
-[13
-
- <./images/Capt100_100.png>] (slides/12.tex
-<images/Rdistribs.png, id=457, 781.7205pt x 354.123pt>
+] (slides/12.tex
+<images/Rdistribs.png, id=429, 781.7205pt x 354.123pt>
 File: images/Rdistribs.png Graphic file (type png)
 <use images/Rdistribs.png>
 Package pdftex.def Info: images/Rdistribs.png  used on input line 6.
@@ -1549,38 +1540,38 @@ Package pdftex.def Info: images/Rdistribs.png  used on input line 6.
 Overfull \vbox (1.27077pt too high) detected at line 91
  []
 
-[14
+[13
 
  <./images/Rdistribs.png>] (slides/13.tex
-<images/LinearNonLinear.png, id=489, 764.8575pt x 381.22424pt>
+<images/LinearNonLinear.png, id=461, 865.43324pt x 430.60875pt>
 File: images/LinearNonLinear.png Graphic file (type png)
 <use images/LinearNonLinear.png>
 Package pdftex.def Info: images/LinearNonLinear.png  used on input line 8.
-(pdftex.def)             Requested size: 215.10196pt x 107.21323pt.
+(pdftex.def)             Requested size: 215.10196pt x 107.02771pt.
 )
-Overfull \vbox (1.96907pt too high) detected at line 95
+Overfull \vbox (1.78355pt too high) detected at line 95
  []
 
-[15
+[14
 
  <./images/LinearNonLinear.png>] (slides/16.tex
-<images/AnnCoeff.png, id=518, 582.978pt x 387.24675pt>
+<images/AnnCoeff.png, id=490, 582.978pt x 387.24675pt>
 File: images/AnnCoeff.png Graphic file (type png)
 <use images/AnnCoeff.png>
 Package pdftex.def Info: images/AnnCoeff.png  used on input line 9.
 (pdftex.def)             Requested size: 215.10196pt x 142.88315pt.
-) [16
+) [15
 
  <./images/AnnCoeff.png>] (slides/16.tex
-<images/AnnCoeffFD.png, id=547, 578.16pt x 380.622pt>
+<images/AnnCoeffFD.png, id=519, 578.16pt x 380.622pt>
 File: images/AnnCoeffFD.png Graphic file (type png)
 <use images/AnnCoeffFD.png>
 Package pdftex.def Info: images/AnnCoeffFD.png  used on input line 12.
 (pdftex.def)             Requested size: 215.10196pt x 141.60617pt.
-) [17
+) [16
 
  <./images/AnnCoeffFD.png>] (slides/14.tex
-<images/Equilibrium.png, id=575, 561.89925pt x 381.8265pt>
+<images/Equilibrium.png, id=547, 561.89925pt x 381.8265pt>
 File: images/Equilibrium.png Graphic file (type png)
 <use images/Equilibrium.png>
 Package pdftex.def Info: images/Equilibrium.png  used on input line 10.
@@ -1589,10 +1580,10 @@ Package pdftex.def Info: images/Equilibrium.png  used on input line 10.
 Overfull \vbox (8.44447pt too high) detected at line 107
  []
 
-[18
+[17
 
  <./images/Equilibrium.png>] (slides/14.tex
-<images/EqFD.png, id=604, 561.297pt x 378.213pt>
+<images/EqFD.png, id=576, 561.297pt x 378.213pt>
 File: images/EqFD.png Graphic file (type png)
 <use images/EqFD.png>
 Package pdftex.def Info: images/EqFD.png  used on input line 13.
@@ -1601,49 +1592,55 @@ Package pdftex.def Info: images/EqFD.png  used on input line 13.
 Overfull \vbox (7.39154pt too high) detected at line 107
  []
 
-[19
+[18
 
  <./images/EqFD.png>] (slides/15.tex
-<images/Aout.png, id=633, 572.1375pt x 378.81525pt>
+<images/Aout.png, id=604, 572.1375pt x 378.81525pt>
 File: images/Aout.png Graphic file (type png)
 <use images/Aout.png>
 Package pdftex.def Info: images/Aout.png  used on input line 7.
 (pdftex.def)             Requested size: 199.73653pt x 132.24628pt.
-) [20
+) [19
 
  <./images/Aout.png>]
 (slides/17.tex
-<images/Constrains.png, id=662, 733.23938pt x 490.08093pt>
+<images/Constrains.png, id=634, 733.23938pt x 490.08093pt>
 File: images/Constrains.png Graphic file (type png)
 <use images/Constrains.png>
-Package pdftex.def Info: images/Constrains.png  used on input line 6.
-(pdftex.def)             Requested size: 199.73653pt x 133.49767pt.
-)
-Overfull \vbox (3.00827pt too high) detected at line 117
+Package pdftex.def Info: images/Constrains.png  used on input line 5.
+(pdftex.def)             Requested size: 169.01036pt x 112.96301pt.
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 6--6
+[][]
  []
 
-[21
 
- <./images/Constrains.png>] (slides/Conclusion2.tex) [22
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+
+ []
+
+) [20
+
+ <./images/Constrains.png>] (slides/Conclusion2.tex) [21
 
 ]
-(slides/ThanksForAttention.tex) [23
+(slides/ThanksForAttention.tex) [22
 
 ] (slides/11_1.tex
-<images/ConvEl.png, id=746, 658.8615pt x 253.54726pt>
+<images/ConvEl.png, id=717, 658.8615pt x 253.54726pt>
 File: images/ConvEl.png Graphic file (type png)
 <use images/ConvEl.png>
 Package pdftex.def Info: images/ConvEl.png  used on input line 4.
 (pdftex.def)             Requested size: 307.28987pt x 118.25417pt.
-) [24
+) [23
 
  <./images/ConvEl.png>] (slides/11_2.tex
-<images/ConvInel.png, id=774, 658.8615pt x 272.81924pt>
+<images/ConvInel.png, id=745, 658.8615pt x 272.81924pt>
 File: images/ConvInel.png Graphic file (type png)
 <use images/ConvInel.png>
 Package pdftex.def Info: images/ConvInel.png  used on input line 4.
 (pdftex.def)             Requested size: 307.28987pt x 127.24261pt.
-) [25
+) [24
 
  <./images/ConvInel.png>]
 \tf@nav=\write6
@@ -1660,32 +1657,33 @@ Package rerunfilecheck Info: File `pt.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 41781 strings out of 475385
- 959318 string characters out of 2790968
+ 41808 strings out of 475385
+ 959848 string characters out of 2790968
  1380917 words of memory out of 3000000
- 62167 multiletter control sequences out of 15000+600000
- 486652 words of font info for 73 fonts, out of 8000000 for 9000
+ 62188 multiletter control sequences out of 15000+600000
+ 489423 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  133i,14n,125p,721b,1120s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\MainUser\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\las
-s0700.pk> <C:\Users\MainUser\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi
-600\lass1000.pk> <C:\Users\MainUser\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-
-t2a/dpi600\lasi1095.pk> <C:\Users\MainUser\AppData\Local\MiKTeX\fonts/pk/ljfour
-/lh/lh-t2a/dpi600\lass0800.pk> <C:\Users\MainUser\AppData\Local\MiKTeX\fonts/pk
-/ljfour/lh/lh-t2a/dpi600\lass1095.pk> <C:\Users\MainUser\AppData\Local\MiKTeX\f
-onts/pk/ljfour/lh/lh-t2a/dpi600\lass1440.pk> <C:\Users\MainUser\AppData\Local\M
-iKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lass0600.pk><D:/Soft/MikTex/fonts/type1/
-public/amsfonts/cm/cmex10.pfb><D:/Soft/MikTex/fonts/type1/public/amsfonts/cm/cm
-mi10.pfb><D:/Soft/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/Soft/MikT
-ex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/Soft/MikTex/fonts/type1/public/
-amsfonts/cm/cmss10.pfb><D:/Soft/MikTex/fonts/type1/public/amsfonts/cm/cmss8.pfb
-><D:/Soft/MikTex/fonts/type1/public/amsfonts/cm/cmssi10.pfb><D:/Soft/MikTex/fon
-ts/type1/public/amsfonts/cm/cmssi8.pfb><D:/Soft/MikTex/fonts/type1/public/amsfo
-nts/cm/cmsy10.pfb><D:/Soft/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/
-Soft/MikTex/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on pt.pdf (25 pages, 1574298 bytes).
+s0900.pk> <C:\Users\MainUser\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi
+600\lass0700.pk> <C:\Users\MainUser\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-
+t2a/dpi600\lass1000.pk> <C:\Users\MainUser\AppData\Local\MiKTeX\fonts/pk/ljfour
+/lh/lh-t2a/dpi600\lasi1095.pk> <C:\Users\MainUser\AppData\Local\MiKTeX\fonts/pk
+/ljfour/lh/lh-t2a/dpi600\lass0800.pk> <C:\Users\MainUser\AppData\Local\MiKTeX\f
+onts/pk/ljfour/lh/lh-t2a/dpi600\lass1095.pk> <C:\Users\MainUser\AppData\Local\M
+iKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lass1440.pk> <C:\Users\MainUser\AppData\
+Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lass0600.pk><D:/Soft/MikTex/fonts
+/type1/public/amsfonts/cm/cmex10.pfb><D:/Soft/MikTex/fonts/type1/public/amsfont
+s/cm/cmmi10.pfb><D:/Soft/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/So
+ft/MikTex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/Soft/MikTex/fonts/type1/
+public/amsfonts/cm/cmss10.pfb><D:/Soft/MikTex/fonts/type1/public/amsfonts/cm/cm
+ssi10.pfb><D:/Soft/MikTex/fonts/type1/public/amsfonts/cm/cmssi8.pfb><D:/Soft/Mi
+kTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Soft/MikTex/fonts/type1/publ
+ic/amsfonts/cm/cmsy7.pfb><D:/Soft/MikTex/fonts/type1/public/amsfonts/cm/cmsy8.p
+fb>
+Output written on pt.pdf (24 pages, 939673 bytes).
 PDF statistics:
- 1100 PDF objects out of 1200 (max. 8388607)
- 53 named destinations out of 1000 (max. 500000)
- 128 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1119 PDF objects out of 1200 (max. 8388607)
+ 51 named destinations out of 1000 (max. 500000)
+ 123 words of extra memory for PDF output out of 10000 (max. 10000000)
 
