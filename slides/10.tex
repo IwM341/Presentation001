@@ -1,16 +1,12 @@
 \begin{itemize}
-	\item Для численного решение фазовое пространство разбивается на интервалы по переменным $E$ и $l$
+	\item Для численного решение фазовое пространство разбивается на интервалы по безразмерным переменным $E$ (энергия) и $l$ (момент импульса)
 	\begin{equation*}
-		\begin{split}
 			E = \left(\frac{1}{2} v_{\chi}^2 + \phi(r)\right)\cdot
-			\left(\frac{1}{2} v_{esc}^2 \right)^{-1} \\
-			L = \frac{|\vec{r} \times \vec{v}|}
-			{R_{\odot} v_{esc}}, l = \frac{L}{L_{max}(E)}
-		\end{split}
-	\end{equation*}
-	\item Решается уравнение на количество частиц в $i$-том итервале:
+			\left(\frac{1}{2} v_{esc}^2 \right)^{-1} 
+	\end{equation*}		
 	\begin{equation*}
-		\deriv{N_{i}}{t} = \cfrac{1}{T_{\chi p}} \left(N_{\odot} c_i +
-		\sum_j{[s_{ij} N_{j} - s_{ji} N_{i} ]} - e_{i} N_i  \right)
+			L = \frac{|\vec{r} \times \vec{v}|}
+			{R_{\odot} v_{esc}} \quad l = \frac{L}{L_{max}(E)}
 	\end{equation*}
+	где $v_{esc}$ --- вторая космическая скорость Солнца, $R_{\odot}$ --- радиус Солнца, $L_{max}(E)$ --- максимальный момент импульса при энергии $E$.
 \end{itemize}

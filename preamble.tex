@@ -1,14 +1,14 @@
 \documentclass[
 11pt,]{beamer}
-\usepackage{booktabs}
-%\graphicspath{{Images/}{./}}
-\usetheme{Antibes}
-\usefonttheme{default}
+\usepackage{cmap}
 
-\useinnertheme{circles}
+
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+%\graphicspath{{Images/}{./}}
 \usepackage[english,russian]{babel}
 
-\setbeamertemplate{caption}{\raggedright\insertcaption\par}
+\usepackage{booktabs}
 
 \usepackage{graphicx} % подключение графики
 \usepackage{pdfpages} % вставка pdf-страниц
@@ -18,7 +18,10 @@
 \usepackage{tikz}
 \usetikzlibrary{decorations.markings}
 \usepackage{subcaption}
+
 \usepackage{pgfplots}
+
+
 \usepgfplotslibrary{
 	groupplots,
 }
@@ -26,6 +29,18 @@
 \usepackage{adjustbox}
 
 \usepackage{caption}
+
+
+
+
+\usetheme{Antibes}
+\usefonttheme{default}
+
+\useinnertheme{circles}
+
+
+\setbeamertemplate{caption}{\raggedright\insertcaption\par}
+
 \captionsetup[figure]{labelformat=empty}
 
 \newcommand{\average}[1]{\langle #1 \rangle}
